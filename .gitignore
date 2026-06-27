@@ -37,8 +37,6 @@ env/
 # =========================
 # Databases & Secrets
 # =========================
-*.sqlite3
-*.db
 .env
 .env.production
 .env.development
