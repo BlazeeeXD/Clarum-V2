@@ -1,0 +1,57 @@
+# =========================
+# Node & Frontend (Vite/React)
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =========================
+# Python Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env_backend/
+
+# =========================
+# Databases & Secrets
+# =========================
+# NEVER push your local database or API keys to production
+*.sqlite3
+*.db
+.env
+.env.production
+.env.development
+
+# =========================
+# OS & Editor Files
+# =========================
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
