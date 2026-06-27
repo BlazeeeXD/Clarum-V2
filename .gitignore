@@ -17,11 +17,9 @@ __pycache__/
 env/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -40,7 +38,6 @@ env/
 # =========================
 # Databases & Secrets
 # =========================
-# NEVER push your local database or API keys to production
 *.sqlite3
 *.db
 .env
